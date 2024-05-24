@@ -9,7 +9,7 @@ import (
 )
 
 func GetFixtureData(teamId string) (fixtureData models.FixturesEntity, err error) {
-	url := fmt.Sprintf("https://livescore-api.com/api-client/fixtures/matches.json?key=ZSZxPcrq7SOFjrhA&secret=WikIyrJXCtYBVvxVoxsdJUERNtx6UOHR&team=%s", teamId)
+	url := fmt.Sprintf("<LiveApiKey>", teamId)
 
 	client := &http.Client{}
 

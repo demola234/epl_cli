@@ -9,7 +9,7 @@ import (
 )
 
 func GetData() (tableData models.EplTable, err error) {
-	url := "https://livescore-api.com/api-client/leagues/table.json?competition_id=2&key=BVROP9YrDPtEojHJ&secret=qo4a6QhqbripjVXUQOJFYI7BxAfWTWFk"
+	url := "<LiveApiKey>"
 
 	client := &http.Client{}
 
