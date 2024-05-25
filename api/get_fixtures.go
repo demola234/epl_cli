@@ -9,7 +9,7 @@ import (
 )
 
 func GetFixtureData(teamId string) (fixtureData models.FixturesEntity, err error) {
-	url := fmt.Sprintf("<LiveApiKey>", teamId)
+	url := fmt.Sprintln("<LiveApiKey>", teamId)
 
 	client := &http.Client{}
 

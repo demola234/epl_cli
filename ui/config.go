@@ -8,6 +8,4 @@ type Config struct {
 	GlamourMaxWidth uint
 	GlamourStyle    string
 	EnableMouse     bool
-
-	
 }
